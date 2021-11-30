@@ -1,0 +1,62 @@
+Please note, that it runs on the port number specified in the port variable at the beginning of index.js.
+by default it is running on PORT 3000, but feel free to change this variable.
+
+To RUN:
+open terminal/command prompt on the directory of where the index.js is located on you computer
+
+type and enter > npm start
+
+it will automatically start and restart the script if you make changes and save.
+
+framework used:
+1. node.js + express.js
+2. nodemon to help auto restart when saved for any changes made
+
+dice game can be visited in your postman or google chrome (browser at http://localhost:3000/) once you start with npm start.
+
+it will give a response to your request on your browser or postman, 
+but is not as easy to understand compared to logs.txt, where it prints everything more clearly.
+
+Therefore please check the logs.txt for better reponse result.
+
+the end of the response given from the API is the final winner of the game
+
+When I give you these files including the logs.txt:
+logs.txt will be empty
+
+The API also accepts user input from query parameters, namely number_of_players and number_of_dice.
+So when you call the API, you'll call it, like so: http://localhost:3000/?number_of_players=3&number_of_dice=2 .
+It will be easier to call this API from your POSTMAN.
+But if you don't provide any parameters, the API still works with the default values, which are 3 for number_of_players and 4 for number_of_dice.
+--------------------------------------------------------------------------------------------------
+Harap dicatat, bahwa ini berjalan pada nomor port yang ditentukan dalam variabel port di awal index.js.
+secara default berjalan pada PORT 3000, tetapi jangan ragu untuk mengubah variabel ini.
+
+Untuk berlari:
+buka terminal/command Prompt di direktori tempat index.js berada di komputer Anda
+
+ketik dan enter > npm start
+
+itu akan secara otomatis memulai dan memulai ulang skrip jika Anda membuat perubahan dan menyimpan.
+
+kerangka yang digunakan:
+1. node.js + express.js
+2. nodemon untuk membantu restart otomatis saat disimpan untuk setiap perubahan yang dilakukan
+
+permainan dadu dapat dikunjungi di tukang pos atau google chrome Anda (browser di http://localhost:3000/) setelah Anda memulai dengan npm start.
+
+itu akan memberikan tanggapan atas permintaan Anda di browser atau tukang pos Anda,
+tetapi tidak semudah untuk dipahami dibandingkan dengan logs.txt, di mana ia mencetak semuanya dengan lebih jelas.
+
+Oleh karena itu, silakan periksa logs.txt untuk hasil respons yang lebih baik.
+
+akhir dari respon yang diberikan dari API adalah pemenang akhir dari permainan
+
+Ketika saya memberi Anda file-file ini termasuk logs.txt:
+logs.txt akan kosong
+
+API juga menerima input pengguna dari parameter kueri, yaitu number_of_players dan number_of_dice.
+Jadi ketika Anda memanggil API, Anda akan memanggilnya, seperti: http://localhost:3000/?number_of_players=3&number_of_dice=2 .
+Akan lebih mudah untuk memanggil API ini dari POSTMAN Anda.
+Tetapi jika Anda tidak memberikan parameter apa pun, API masih berfungsi dengan nilai default, yaitu 3 untuk number_of_players dan 4 untuk number_of_dice.
+
